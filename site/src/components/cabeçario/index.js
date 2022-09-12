@@ -8,9 +8,9 @@ import './index.scss';
         return(
 
             <section className='page-cabecario'>
-                <div>
+                <div className='x1'>
                     
-                      </div>
+                     
                 <div className='sub1'>
                     <img src="./assets/images/image 1067.png" />
                     <h1> Overland</h1>
@@ -32,6 +32,20 @@ import './index.scss';
 
                     <img src='./assets/images/Star 14.png' alt='1' />
                   
+                    
+                </div>
+                </div>
+                <div className='x2'>
+                    <p>ESPORTES</p>
+                    <p>masculino</p>
+                    <p>feminino</p>
+                    <p>infantil </p>
+                    <p>CALÇADOS</p>
+                    <p>ROUPAS</p>
+                    <p>ACESSÓRIOS</p>
+                    <p>EQUIPAMENTOS</p>
+                    <p>MARCAS</p>
+                    
                     
                 </div>
               
