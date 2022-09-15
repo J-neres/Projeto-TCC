@@ -11,6 +11,14 @@
     display: flex;
     flex-direction: row;
    }
+   p{
+    font-family: "BebasNeue-Regular";
+     
+   
+   }
+   p:hover{
+    cursor: pointer;
+   }
    .x2{
     padding: 0;
     height: 1em;
@@ -22,7 +30,7 @@
    }
     h1{
         margin-top: 23px;
-       
+         font-family: "BebasNeue-Regular";
         font-size: 25px;
         color: white;
     }
