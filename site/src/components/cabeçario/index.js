@@ -20,7 +20,7 @@ import './index.scss';
                 <div className='sub2'>
 
                     <input type="text" placeholder="O que você procura? ;-;" />
-                    <img src='./assets/images/image 259.png'/> 
+     
                 </div>
 
                 <div className='subx'>
