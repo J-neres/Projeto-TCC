@@ -11,7 +11,7 @@ import 'react-multi-carousel/lib/styles.css';
 export default function Home(){
     
 
-    return(
+    return (
         <main className='page-home'>
 
         <Cabecario/>

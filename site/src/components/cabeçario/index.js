@@ -20,7 +20,7 @@ import './index.scss';
                 <div className='sub2'>
 
                     <input type="text" placeholder="O que você procura? ;-;" />
-                    <img src='./assets/images/image 259.png' />
+                    <img src='./assets/images/image 259.png'/> 
                 </div>
 
                 <div className='subx'>
@@ -37,9 +37,9 @@ import './index.scss';
                 </div>
                 <div className='x2'>
                     <p>ESPORTES</p>
-                    <p>masculino</p>
-                    <p>feminino</p>
-                    <p>infantil </p>
+                    <p>MASCULINO</p>
+                    <p>FEMININO</p>
+                    <p>INFANTIL</p>
                     <p>CALÇADOS</p>
                     <p>ROUPAS</p>
                     <p>ACESSÓRIOS</p>
