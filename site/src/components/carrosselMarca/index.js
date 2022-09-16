@@ -26,7 +26,6 @@ export default function CarrosselMarca(){
      
     return(
         <section className='pgae-marc'>
-            <div className='c1'><h1>Melhores Marcas</h1></div>
 
 <Carousel
         swipeable={false}

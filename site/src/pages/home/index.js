@@ -4,12 +4,7 @@ import Carousel from 'react-multi-carousel';
 import Carrossel from '../../components/carrssel';
 import 'react-multi-carousel/lib/styles.css';
 import CategoriaDestaque from '../../components/CategoriaDestaque';
-import Relogio from './assets/images/imagemrelogio.png';
-
-
-
-
-
+import CarrosselMarca from '../../components/carrosselMarca'; 
 
 export default function Home(){
     
@@ -24,14 +19,16 @@ export default function Home(){
             Carrossel de produtos
 
 
-            <h1 className='titulo-landing'> Categorias Em destaque</h1>
-
-            <div className='categoria-destaques'>
-                <CategoriaDestaque nome="Acessórios" className={props.img} />
-                <CategoriaDestaque nome="Tenis" immagem=""/>
-                <CategoriaDestaque nome="Calças" imagem="" />
-                <CategoriaDestaque nome="Blusas" imagem="" />
+            <div className='categoriadestaques'>
+                                <h1 className='titulo-landing'> Categorias Em destaque</h1>
+                <div className='categoria-destaques'>
+                    <CategoriaDestaque nome="Acessórios" imagem="./assets/images/imagemrelogio.png"  />
+                    <CategoriaDestaque nome="Tenis" imagem="./assets/images/image40.png"/>
+                    <CategoriaDestaque nome="Calças" imagem="./assets/images/image 41.png" />
+                    <CategoriaDestaque nome="Blusas" imagem="./assets/images/image 1448.png" />
+                </div>
             </div>
+
 
        
             <h1 className='titulo-landing'> Item mais procurado</h1>
@@ -41,7 +38,10 @@ export default function Home(){
             <h1 className='titulo-landing'> Melhores Marcas</h1>
 
             Carrossel de Marcas
-
+            <div>
+                <CarrosselMarca/>
+            </div>
+                
             Rodapé
         </main>
     )

@@ -5,7 +5,8 @@ import './index.scss';
     
                 <section className='Card'>
                     <div className='direcao'>
-                        <img src={props.img} />
+                        <p> {props.nome} </p>
+                        <img src={props.imagem} />
                     </div>
                 </section>
             )
